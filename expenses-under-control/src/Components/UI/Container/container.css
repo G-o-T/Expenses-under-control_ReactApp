@@ -1,0 +1,15 @@
+.container {
+    max-width: clamp(335px, 100vw, 1440px);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.container__center {
+    display: flex;
+    align-items: center;
+}

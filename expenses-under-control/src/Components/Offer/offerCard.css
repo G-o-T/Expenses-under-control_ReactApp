@@ -1,0 +1,56 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+    border-radius: 12px;
+    padding: 16px;
+    color: #fff;
+    box-shadow: 0 0 32px #ffffff60;
+}
+
+.card__block {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card__block_right {
+    align-items: end;
+}
+
+.card__name {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card__tag,
+.card__date
+ {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.amount-container {
+    display: flex;
+    font-size: 12px;
+}
+
+.card__amount {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.card__dark {
+    background-color: #801bd3;
+}
+
+.card__medium {
+    background-color: #cebab4;
+    margin-left: 225px;
+}
+
+.card__light {
+    background-color: #b35afc;
+    margin-left: 450px;
+}

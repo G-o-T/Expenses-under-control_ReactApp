@@ -1,0 +1,30 @@
+.offer {
+    min-height: 100vh;
+    background: linear-gradient(to right, #7d02e0, #a53bfc);
+}
+
+.offer__desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.offer__deco {
+    position: relative;
+}
+
+.offer__img {
+    width: 800px;
+    height: 100vh;
+    background: url("./transaction_img-min_copy.png");
+    background-position: right -90px;
+    background-repeat: no-repeat;
+}
+
+.offer__cards {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 240px;
+}
